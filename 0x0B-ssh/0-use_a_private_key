@@ -1,4 +1,5 @@
-#!/usr/bin/evn/bash
-# Using ssh to connect to a server
+#!/bin/bash
 
-ssh ubuntu@example.com -i ~/.ssh/school
+# Connect to server using ssh with the private key ~/.ssh/school and the user ubuntu
+
+ssh -i ~/.ssh/school ubuntu@54.221.187.120
