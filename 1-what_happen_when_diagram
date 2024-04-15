@@ -1,0 +1,15 @@
+DNS Resolution: Show the DNS resolver querying authoritative DNS servers to obtain the IP address of www.google.com.
+
+Establishing Connection: Illustrate the TCP/IP connection being established between the client (browser) and the server (Google) on the appropriate port (typically port 443 for HTTPS).
+
+Traffic Encryption: Represent the traffic between the client and the server being encrypted using SSL/TLS protocols.
+
+Firewall: Depict a firewall between the client and the server, filtering incoming and outgoing traffic to ensure security.
+
+Load Balancer: Show a load balancer distributing incoming requests across multiple server instances to ensure scalability and high availability.
+
+Web Server: Represent the web server (e.g., Apache, Nginx) receiving the request and serving the requested web page.
+
+Application Server: Illustrate the application server executing server-side code to generate dynamic content, interacting with databases if necessary.
+
+Database: Show the application server communicating with the database server to retrieve or manipulate data required for generating the web page.

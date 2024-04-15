@@ -1,0 +1,29 @@
+Introduction:
+In today's digital age, browsing the web has become an integral part of our daily lives. Have you ever wondered what happens behind the scenes when you type a URL like https://www.google.com into your browser and hit Enter? In this blog post, we'll dive deep into the journey of a web request, exploring each step from DNS resolution to receiving a response from the server.
+
+DNS Request:
+The journey begins with the Domain Name System (DNS) resolution. When you type a URL into your browser, such as https://www.google.com, your computer first needs to translate the human-readable domain name (www.google.com) into an IP address. It sends a DNS request to a DNS resolver, which then queries authoritative DNS servers to obtain the IP address associated with the domain name.
+
+TCP/IP:
+Once the IP address is obtained, your computer establishes a TCP/IP connection with the server hosting the website. TCP (Transmission Control Protocol) ensures reliable transmission of data by breaking it into packets and reassembling them at the destination. IP (Internet Protocol) handles routing and addressing to ensure that packets reach the correct destination.
+
+Firewall:
+Before the connection is established, it may encounter a firewall. Firewalls act as a barrier between your computer and the internet, filtering incoming and outgoing traffic based on predefined security rules. They help protect against unauthorized access and malicious attacks.
+
+HTTPS/SSL:
+In the case of HTTPS (Hypertext Transfer Protocol Secure) websites like Google, the connection is encrypted using SSL/TLS (Secure Sockets Layer/Transport Layer Security) protocols. This encryption ensures that data transmitted between your browser and the server remains confidential and secure, protecting against eavesdropping and tampering.
+
+Load-Balancer:
+Large websites like Google typically have multiple servers distributed across different locations to handle high traffic volumes efficiently. Load balancers sit in front of these servers and distribute incoming requests across them based on factors like server load and availability. This ensures optimal performance and prevents any single server from becoming overloaded.
+
+Web Server:
+Once the request reaches the server, it is processed by a web server such as Apache, Nginx, or Microsoft IIS. The web server retrieves the requested resources, such as HTML, CSS, JavaScript, and images, from the file system or generates them dynamically based on server-side code.
+
+Application Server:
+In some cases, the web server may delegate certain tasks to an application server. Application servers are responsible for executing server-side code, such as PHP, Python, or Java, and generating dynamic content in response to client requests. They interact with databases and other external services to fulfill the request.
+
+Database:
+If the request requires data from a database, the application server communicates with the database server to retrieve or manipulate the data. Databases store and organize structured data, such as user information, product catalogs, and transaction records, and play a crucial role in web applications.
+
+Conclusion:
+As we've seen, the journey of a web request involves multiple steps, each handled by different components of the web stack. From DNS resolution to receiving a response from the server, every step contributes to the seamless browsing experience we've come to expect. Understanding this process not only deepens our appreciation for the technology powering the web but also equips us with valuable knowledge for building and maintaining web applications in the future.
