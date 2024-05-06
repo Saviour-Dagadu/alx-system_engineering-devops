@@ -23,7 +23,7 @@ Root Cause: High latency and packet loss on our internet service provider (ISP) 
 The root cause was high latency and packet loss on our primary ISP in Accra, Ghana. The issue was resolved by switching to our backup ISP and working with the primary ISP to resolve the issue.
 
 
-##Corrective and Preventative Measures
+## Corrective and Preventative Measures
 Implement redundant ISP connections in multiple African countries.
 Develop automated failover to backup ISP in case of high latency or packet loss.
 Increase monitoring and alerting for ISP connectivity issues.
